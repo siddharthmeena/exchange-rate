@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background-image: url(/resources/images/bg-intro-desktop.png);
+    background-color: hsla(327, 100%, 85%, 0.75);
+    text-align: center;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    margin: 10% auto;
+    background-color: rgb(140, 212, 245);
+    padding: 2%;
+    height: 60%;
+    display: inline-block;
+    
+}
+h1{
+    margin-bottom: 5%;
+}
+
+.currency input{
+    border: none;
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(140, 212, 245);
+    font: bold;
+    font-size: 2rem;
+    
+}
+select{
+    padding: 10px;
+    border-radius: 10px;
+    font: bold;
+    
+}
+
+.btn{
+    margin: 1%;
+    padding: 10px;
+    width: 20%;
+}
+@media only screen and (max-width: 900px){
+    html{
+        font-size: 8px;
+    }
+    small{
+        font-size: 2rem;
+     }
+     .currency{
+        margin: 8% 0;
+    }
+    .container{
+        display: block;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
